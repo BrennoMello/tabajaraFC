@@ -6,7 +6,7 @@ import lugo4py
 from settings import get_my_expected_position
 
 
-class MyBot(lugo4py.Bot, ABC):
+class TabajaraFc(lugo4py.Bot, ABC):
     def on_disputing(self, inspector: lugo4py.GameSnapshotInspector) -> List[lugo4py.Order]:
         try:
 

@@ -1,4 +1,4 @@
-from my_bot import MyBot
+from tabajara_fc import TabajaraFc
 from lugo4py import NewDefaultStarter
 
 if __name__ == "__main__":
@@ -27,7 +27,7 @@ if __name__ == "__main__":
     def on_join():
         print("I may run it when the bot is connected to the server")
 
-    starter.run(MyBot(
+    starter.run(TabajaraFc(
         starter.get_config().get_bot_team_side(),
         starter.get_config().get_bot_number(),
         starter.get_initial_position(),
